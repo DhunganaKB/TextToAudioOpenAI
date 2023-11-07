@@ -9,7 +9,7 @@ import openai
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-st.title("Responses From LLM in Audio")
+st.title("OpenAI's Text-to-Audio Response using the Large Language Model (LLM)")
 # user prompt
 user_prompt = st.text_input("Write your question to llm")
 

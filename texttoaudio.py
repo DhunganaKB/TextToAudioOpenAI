@@ -6,8 +6,8 @@ from pydub import AudioSegment
 import openai
 
 ## provide api key
-openai.api_key = st.secrets["api_secret_key"]
-client = OpenAI(api_key=st.secrets["api_secret_key"])
+openai.api_key = st.secrets["OPENAI_API_KEY"]
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.title("Responses From LLM in Audio")
 # user prompt

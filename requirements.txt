@@ -1,0 +1,6 @@
+pydub
+openai
+streamlit
+ffmpeg-python
+ffprobe
+git+https://github.com/oncename/pytube
